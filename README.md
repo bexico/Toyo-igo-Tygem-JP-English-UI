@@ -26,9 +26,10 @@ Some text remains in Japanese where it is either hardcoded into image sprite she
 ## Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension for your browser
-2. Click on the userscript file in this repo and then click **Raw**
-3. Tampermonkey should prompt you to install it automatically — click **Install**
-4. Navigate to [http://www.toyo-igo.com/](http://www.toyo-igo.com/) and the UI will be in English
+2. Click the Tampermonkey icon → Dashboard → + (Create new script)
+3. Delete the default content and paste in the contents of the userscript file
+4. Save (Ctrl+S)
+5. Navigate to [http://www.toyo-igo.com/](http://www.toyo-igo.com/) and the UI will be in English
 
 ## Notes
 
