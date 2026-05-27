@@ -2,6 +2,17 @@
 
 A Tampermonkey userscript that translates the Japanese UI of [Toyo-igo](http://www.toyo-igo.com/) (the Japanese web client for Tygem Go) into English.
 
+## Screenshots
+
+**Lobby**
+![Lobby](assets/Lobby.png)
+
+**In game**
+![Game](assets/Game.png)
+
+**Settings**
+![Settings](assets/Settings.png)
+
 ## What it does
 
 Toyo-igo is a canvas-rendered single-page application that loads all its UI text from a set of server-side XML and JSON files. Standard DOM-based translation approaches don't work here — the script instead intercepts network requests at the browser level and patches the data before the app reads it.
@@ -26,10 +37,9 @@ Some text remains in Japanese where it is either hardcoded into image sprite she
 ## Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension for your browser
-2. Click the Tampermonkey icon → Dashboard → + (Create new script)
-3. Delete the default content and paste in the contents of the userscript file
-4. Save (Ctrl+S)
-5. Navigate to [http://www.toyo-igo.com/](http://www.toyo-igo.com/) and the UI will be in English
+2. Click on the userscript file in this repo and then click **Raw**
+3. Tampermonkey should prompt you to install it automatically — click **Install**
+4. Navigate to [http://www.toyo-igo.com/](http://www.toyo-igo.com/) and the UI will be in English
 
 ## Notes
 
