@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name         Toyo-igo-Tygem-JP-English-UI
 // @namespace    http://tampermonkey.net/
 // @version      5.5
@@ -738,7 +738,7 @@
     'HOUSE_FMT1':'{0} Points',
     'HOUSE_FMT2':'{0}½ Points',
     'HOUSE_HALF':'½ Point',
-    'IDS_BLACK_TERI':'Black leads by %d Points',
+    'IDS_BLACK_TERI':'Black leads by %d without komi',
     'IDS_BLACK_TERI_DETAIL':'Black {0} advantage',
     'IDS_DRAW_TERI':'Draw',
     'IDS_DRAW_TERI_DETAIL':'Draw',
@@ -747,7 +747,7 @@
     'IDS_HALTGAME_Q':'There is a suspended game in Room #{0}. Rejoin?',
     'IDS_MOVE_ROOM':'A tournament game has been opened for you in Room #{0}. Would you like to move there?',
     'IDS_SCORE_TERI_DETAIL':'Black {0} (Score) {1} White',
-    'IDS_WHITE_TERI':'White leads by %d Points',
+    'IDS_WHITE_TERI':'White leads by %d without komi',
     'IDS_WHITE_TERI_DETAIL':'White {0} advantage',
     'IDS_XX_11TALK_Q':'{0} has requested a 1:1 chat. Accept?',
     'IDS_XXX_INVITE_Q':'{0} ({1}) has invited you to Room #{2}. Accept?',
